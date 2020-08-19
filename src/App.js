@@ -18,6 +18,7 @@ function App() {
             <Alert alert={{ text: 'Test alert' }} />
             <Switch>
               <Route path="/" exact component={Home} />
+              <Route path="/github-search" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/profile/:name" component={Profile} />
             </Switch>
